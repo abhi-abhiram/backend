@@ -8,24 +8,20 @@
 
   <servlet>
     <servlet-name>ApiLogin</servlet-name>
-    <servlet-class>com.diary-blog.ApiLogin</servlet-class>
+    <servlet-class>com.diaryblog.ApiLogin</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ApiLogin</servlet-name>
     <url-pattern>/api/login</url-pattern>
   </servlet-mapping>
 
-
   <servlet>
-    <servlet-name>ApiGetMessageServlet</servlet-name>
-    <servlet-class>com.diary-blog.ApiGetMessageServlet</servlet-class>
+    <servlet-name>ApiRegister</servlet-name>
+    <servlet-class>com.diaryblog.ApiRegister</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>ApiGetMessageServlet</servlet-name>
-    <url-pattern>/api/getMessage</url-pattern>
+    <servlet-name>ApiRegister</servlet-name>
+    <url-pattern>/api/register</url-pattern>
   </servlet-mapping>
 
 </web-app>
-
-
-
